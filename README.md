@@ -1,5 +1,5 @@
 <div style="text-align: center; background-color: #f0f0f0; padding: 20px;">
-  <h1>Projeto de Banco de Dados - EP</h1>
+  <h1>Projeto Database Aplication - EP</h1>
 
   <h2>Integrantes do Grupo:</h2>
   
