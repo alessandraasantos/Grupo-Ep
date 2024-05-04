@@ -36,7 +36,7 @@
 <div align="center">
    <h2>Modelo Lógico:</h2>
   
-  <img src="https://i.imgur.com/cDJbv3W.jpeg" alt="Modelo Lógico" width="600"/>
+  <img src="https://i.imgur.com/v8YLdvX.jpeg" alt="Modelo Lógico" width="600"/>
 </div>
 
 
