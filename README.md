@@ -34,10 +34,16 @@
 </div>
 
 <div style="text-align: center; background-color: #f0f0f0; padding: 20px;">
-  <h2>Dicionario de Dados:</h2>
+  <h2>Dicionário de Dados:</h2>
 
   <p>Você pode visualizar nosso cronograma no Dicionario de Dados através deste link: https://github.com/alessandraasantos/Grupo-Ep/blob/main/Dicion%C3%A1rio.pdf.</p>
 </div>
+<div style="text-align: center; background-color: #f0f0f0; padding: 20px;">
+  <h2>Apresentação:</h2>
+
+  <p>Você pode visualizar o tutorial da nossa apresentação através desse link: https://github.com/alessandraasantos/Grupo-Ep/blob/main/Apresenta%C3%A7%C3%A3o%20Como%20ser%20Criativo%20Colorido%20Azul%20Rosa%20Amarelo%20(1).pdf</p>
+</div>
+
 
 <div align="center">
    <h2>Modelo Lógico:</h2>
