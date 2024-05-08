@@ -31,7 +31,7 @@ for targetSales in mysql_targetSaless_data:
         'category': targetSales['category'],
         'target': targetSales['target'],
         'order_date': order_date_iso, 
-        # Add more fields as needed
+        
     }
     mongo_targetSales_data.append(mongo_targetSales)
 
