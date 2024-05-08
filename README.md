@@ -31,6 +31,7 @@
   <p>Nós organizamos nosso trabalho usando um cronograma no Trello. Ele mostra as tarefas atribuídas a cada membro do grupo e o progresso atual do projeto.</p>
   
   <p>Você pode visualizar nosso cronograma no Trello através deste link: https://trello.com/b/A99qwO8b/project.</p>
+  <p>Você pode visualizar nosso cronograma no Trello através deste link: https://github.com/alessandraasantos/Grupo-Ep/blob/main/Dicion%C3%A1rio.pdf.</p>
 </div>
 
 <div align="center">
