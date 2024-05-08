@@ -18,7 +18,7 @@ SET SQL_SAFE_UPDATES = 0;
 
 UPDATE target_sales
 SET order_date = STR_TO_DATE(CONCAT('01-', month_of_order_date), '%d-%b-%y')
-WHERE id_target_sales > 0; -- Replace "id_target_sales" with the actual primary key column of your table
+WHERE id_target_sales > 0;
 
 CREATE TABLE Orders (
     order_id VARCHAR(255) PRIMARY KEY,
@@ -94,7 +94,7 @@ FROM
 INNER JOIN 
     OrderDetails od ON o.order_id = od.order_id
 WHERE 
-    o.order_id = 'B-25601';
+    o.order_id = 'B-25601'; 
 
 
 SELECT 
