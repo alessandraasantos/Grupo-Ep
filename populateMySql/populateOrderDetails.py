@@ -4,7 +4,7 @@ import mysql.connector
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 grupo_ep_dir = os.path.dirname(current_dir)
-csv_file_path = os.path.join(grupo_ep_dir, 'Excell', 'Order_Details.csv')
+csv_file_path = os.path.join(grupo_ep_dir, 'dataset', 'Order_Details.csv')
 
 cnx = mysql.connector.connect(
     host='localhost',
