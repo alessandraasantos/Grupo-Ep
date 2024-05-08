@@ -60,7 +60,7 @@ pipeline = [
         "quantity": "$order_details.quantity",
         "category": "$order_details.category",
         "sub_category": "$order_details.sub_category",
-        "target": "$target_sales.target"  # Assuming this is the field you want from target_sales
+        "target": "$target_sales.target"  
     }}
 ]
 
