@@ -1,5 +1,11 @@
 import csv
 import mysql.connector
+import os
+
+
+current_dir = os.path.dirname(os.path.abspath(__file__))
+grupo_ep_dir = os.path.dirname(current_dir)
+csv_file_path = os.path.join(grupo_ep_dir, 'Excell', 'Sales_target.csv')
 
 
 cnx = mysql.connector.connect(
@@ -11,7 +17,7 @@ cnx = mysql.connector.connect(
 cursor = cnx.cursor()
 
 
-with open(r'C:\Users\marcu\Downloads\archive\Sales target.csv', newline='') as csvfile:
+with open(csv_file_path, newline='') as csvfile:
     reader = csv.reader(csvfile)
 
 
