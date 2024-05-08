@@ -1,6 +1,10 @@
+import os
 import csv
 import mysql.connector
 
+current_dir = os.path.dirname(os.path.abspath(__file__))
+grupo_ep_dir = os.path.dirname(current_dir)
+csv_file_path = os.path.join(grupo_ep_dir, 'dataset', 'Order_Details.csv')
 
 cnx = mysql.connector.connect(
     host='localhost',
@@ -10,18 +14,13 @@ cnx = mysql.connector.connect(
 )
 cursor = cnx.cursor()
 
-
-with open(r'C:\Users\marcu\Downloads\archive\Order Details.csv', newline='') as csvfile:
+with open(csv_file_path, newline='') as csvfile:
     reader = csv.reader(csvfile)
-
-
     next(reader)
 
- 
     for row in reader:
-     
         if not any(row):
-            continue  
+            continue
         
         order_id = row[0]
         amount = float(row[1])
